@@ -1,0 +1,30 @@
+/* .contact__container {
+  margin-bottom: 10%;
+} */
+
+.contact__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.contact__card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 2rem;
+  transition: var(--transition);
+}
+
+.contact__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.contact__icon {
+  color: var(--color-primary);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
